@@ -3,80 +3,75 @@
 	<head>
 		<title>지기야!-신청</title>
 		<meta charset="utf-8">
-		<style>
-			a {
-				color: black;
-				text-decoration: none;
-			}
-			h1 {
-				text-align: center;
-				border-bottom: 5px solid aquamarine;
-			}
-		</style>
+		<link rel="stylesheet" href="style_main.css">
 	</head>
 	<body>
 		<h1><a href="index.html">지기야!</a></h1>
 		<h2>지기야! 신청</h2>
-		<h3>기본정보</h3>
-		인편 내에서 불리고 싶은 애칭을 설정해보세요!<br>
-		이름(별명) <input type="text">
-		<h3>희망 글자 수</h3>
-		한 글자 당 1원<br>
-		<input type="radio" id="300" name="byte" value="300">
-		<label for="300">300자</label>
-		<input type="radio" id="600" name="byte" value="600">
-		<label for="300">600자</label>
-		<input type="radio" id="900" name="byte" value="900">
-		<label for="300">900자</label>
-		<input type="radio" id="1200" name="byte" value="1200">
-		<label for="300">1200자</label>
-		<input type="radio" id="1500" name="byte" value="1500">
-		<label for="300">1500자</label>
-		<h3>희망 기간</h3>
-		<input type="radio" id="7" name="date" value="7">
-		<label for="7">7일</label>
-		<input type="radio" id="14" name="date" value="14">
-		<label for="14">14일</label>
-		<input type="radio" id="21" name="date" value="21">
-		<label for="21">21일</label>
-		<input type="radio" id="28" name="date" value="28">
-		<label for="28">28일</label>
-		<input type="radio" id="35" name="date" value="35">
-		<label for="35">35일</label>
-		<input type="radio" id="42" name="date" value="42">
-		<label for="42">42일</label>
-		<h3>희망 인편의 수</h3>
-		인편수 <select name="num">
-		<option value="none">== 선택 ==</option>
-		<option value="10">10</option>
-		<option value="20">20</option>
-		<option value="30">30</option>
-		<option value="40">40</option>
-		<option value="50">50</option>
-		<option value="60">60</option>
-		<option value="70">70</option>
-		<option value="80">80</option>
-		<option value="90">90</option>
-		<option value="100">100</option>
-		<option value="110">110</option>
-		<option value="120">120</option>
-		<option value="130">130</option>
-		<option value="140">140</option>
-		<option value="150">150</option>
-		<option value="160">160</option>
-		<option value="170">170</option>
-		<option value="180">180</option>
-		<option value="190">190</option>
-		<option value="200">200</option>
-		</select> <br>
-		<h3>보낸 이와의 관계</h3>
-		<input type="checkbox"> 여자친구 (1장 당 200원 추가요금)<br>
-		<input type="checkbox"> 친구<br>
-		<input type="checkbox"> 배우자 (1장 당 300원 추가요금)<br>
-		<input type="checkbox"> 팬<br>
-		<input type="checkbox"> 반려동물<br><br>
-		<a href="confirm.html"><input type="submit" value="신청완료"></a>
-		<h5>참고사항</h5>
-		<p>인편 받는 날와 보낸 이와의 관계 인편 수는 랜덤임.</p>
+		<div id="para">
+			<h3>기본정보</h3>
+			인편 내에서 불리고 싶은 애칭을 설정해보세요!<br>
+			이름(별명) <input type="text">
+			<h3>희망 글자 수</h3>
+			한 글자 당 1원<br>
+			<input type="radio" id="300" name="byte" value="300">
+			<label for="300">300자</label>
+			<input type="radio" id="600" name="byte" value="600">
+			<label for="300">600자</label>
+			<input type="radio" id="900" name="byte" value="900">
+			<label for="300">900자</label>
+			<input type="radio" id="1200" name="byte" value="1200">
+			<label for="300">1200자</label>
+			<input type="radio" id="1500" name="byte" value="1500">
+			<label for="300">1500자</label>
+			<h3>희망 기간</h3>
+			<input type="radio" id="7" name="date" value="7">
+			<label for="7">7일</label>
+			<input type="radio" id="14" name="date" value="14">
+			<label for="14">14일</label>
+			<input type="radio" id="21" name="date" value="21">
+			<label for="21">21일</label>
+			<input type="radio" id="28" name="date" value="28">
+			<label for="28">28일</label>
+			<input type="radio" id="35" name="date" value="35">
+			<label for="35">35일</label>
+			<input type="radio" id="42" name="date" value="42">
+			<label for="42">42일</label>
+			<h3>희망 인편의 수</h3>
+			인편수 <select name="num">
+			<option value="none">== 선택 ==</option>
+			<option value="10">10</option>
+			<option value="20">20</option>
+			<option value="30">30</option>
+			<option value="40">40</option>
+			<option value="50">50</option>
+			<option value="60">60</option>
+			<option value="70">70</option>
+			<option value="80">80</option>
+			<option value="90">90</option>
+			<option value="100">100</option>
+			<option value="110">110</option>
+			<option value="120">120</option>
+			<option value="130">130</option>
+			<option value="140">140</option>
+			<option value="150">150</option>
+			<option value="160">160</option>
+			<option value="170">170</option>
+			<option value="180">180</option>
+			<option value="190">190</option>
+			<option value="200">200</option>
+			</select> <br>
+			<h3>보낸 이와의 관계</h3>
+			<input type="checkbox"> 여자친구 (1장 당 200원 추가요금)<br>
+			<input type="checkbox"> 친구<br>
+			<input type="checkbox"> 배우자 (1장 당 300원 추가요금)<br>
+			<input type="checkbox"> 팬<br>
+			<input type="checkbox"> 반려동물<br><br>
+			<a href="confirm.html"><input type="submit" value="신청완료"></a>
+		</div>
+		<div class="caution">
+			<h5>참고사항</h5>
+			<p>인편 받는 날와 보낸 이와의 관계 인편 수는 랜덤임.</p>
+		</div>
 	</body>
 </html>
